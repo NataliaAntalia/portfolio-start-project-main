@@ -8,3 +8,7 @@
 /dataSources.local.xml
 
 ./idea
+*.iml
+vcs.xml
+workspace.xml
+modules.xml
