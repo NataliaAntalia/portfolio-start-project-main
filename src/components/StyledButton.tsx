@@ -18,7 +18,7 @@ export const StyledButton = (props: StyledButtonPropsType) => {
         <StyledBtn bgColor={props.bgColor} borderColor={props.borderColor} height={props.height} width={props.width}>
             <StyledText>{props.text}</StyledText>
             {props.iconId &&
-                <Icon iconId={props.iconId} width={'24px'} height={'24px'} viewBox={'0 0 24px 24px'}></Icon>
+                <Icon iconId={props.iconId} width={'24'} height={'24'} viewBox={'0 0 24 24'}></Icon>
             }
         </StyledBtn>
     );
